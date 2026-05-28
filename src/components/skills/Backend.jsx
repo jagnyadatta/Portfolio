@@ -3,7 +3,7 @@ import React from 'react'
 const Backend = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Backend developer</h3>
+        <h3 className="skills__title">Backend Skills</h3>
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
@@ -27,6 +27,13 @@ const Backend = () => {
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
+                <div className="skills__data">
+                    <i className="bx bx-badge-check"></i>
+                    <div>
+                        <h3 className="skills__name">JDBC</h3>
+                        <span className="skills__level">Intermediate</span>
+                    </div>
+                </div>
             </div>
             <div className="skills__group">
                 <div className="skills__data">
@@ -39,14 +46,21 @@ const Backend = () => {
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div>
-                        <h3 className="skills__name">Git</h3>
+                        <h3 className="skills__name">Java</h3>
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div>
-                        <h3 className="skills__name">Java</h3>
+                        <h3 className="skills__name">Hibernate</h3>
+                        <span className="skills__level">Intermediate</span>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <i className="bx bx-badge-check"></i>
+                    <div>
+                        <h3 className="skills__name">JSP</h3>
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
